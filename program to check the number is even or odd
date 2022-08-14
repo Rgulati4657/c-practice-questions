@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int num;
+cout<<"enter the integer number : "<<endl;
+cin>>num;
+if (num % 2 == 0)
+cout<<"this entered number is even :"<<num;
+else
+cout<<"this entered number is odd :"<<num;
+
+return 0;
+}
