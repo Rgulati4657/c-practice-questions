@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,temp;
+cout<<"enter the value of a : "<<endl;
+cin>>a;
+cout<<"enter the value of b : "<<endl;
+cin>>b;
+temp = a;
+a = b;
+b = temp;
+cout<<"the value of a after swaping is : "<<a<<endl;
+cout<<"the value of b after swaping is : "<<b<<endl;
+
+return 0;
+}
