@@ -1,0 +1,23 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+char X;
+bool islowercase,isuppercase;
+cout<< "Enter the ALPHABET : ";
+cin >>X;
+islowercase =(X== 'a'||X== 'e'||X== 'i'||X== 'o'||X== 'u');
+isuppercase =(X== 'A'||X== 'E'||X== 'I'||X== 'O'||X== 'U');
+if(isalpha(X)){
+    if(islowercase||isuppercase){
+       cout<<"Entered character is a vowel : "<<X;            
+    }
+    else{
+        cout<<"Entered character is a consonant : "<<X;
+    }
+}
+else{
+    cout<<"!!!!!!!!!!!ERROR!!!!!!!!!!Enter a character.";
+}
+return 0;
+}
