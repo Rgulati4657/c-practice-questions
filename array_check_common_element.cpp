@@ -1,5 +1,4 @@
-// i make a program to check the duplicateor common element in two arrays
-// is it right 
+
 #include<iostream>
 using namespace std;
 int main(){
